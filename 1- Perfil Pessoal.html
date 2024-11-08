@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .card {
+            background-color: #fff;
+            width: 350px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            border: 2px solid #cc0000;
+        }
+
+        .card .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #333;
+            margin: 0 auto;
+        }
+
+        .card h1 {
+            font-size: 24px;
+            color: #cc0000;
+            margin: 15px 0 5px;
+        }
+
+        .card h2 {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .card .matricula {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills .skill {
+            background-color: #cc0000; 
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #cc0000;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .social-links a:hover {
+            color: #000; 
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Foto de perfil -->
+        <div class="profile-pic"></div>
+
+        <h1>Jeferson Luiz de Oliveira Junior</h1>
+        <h2>Estudante de Ciências da Computação</h2>
+
+        <!-- Matrícula -->
+        <p class="matricula">Matrícula: 202408226934</p>
+
+        <!-- Descrição pessoal -->
+        <p>Sou estudante de Ciências da Computação na Estácio de Sá, onde desenvolvo habilidades em programação. Meu objetivo é me especializar em desenvolvimento de software.</p>
+
+        <div class="skills">
+            <!-- Habilidades -->
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+        </div>
+
+        <div class="social-links">
+            <!-- Links para redes sociais -->
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
